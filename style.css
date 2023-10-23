@@ -2,35 +2,47 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #a7a7a7;
-  color:rgb(72, 0, 255);
+  background-color: #848282;
+  color:rgb(10, 10, 10);
+}
+.Titulo{
+  width: 100%;
+  background-color: #fdfd8b;
+  color: #0a0a0a;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+nav { 
+  display: flex;
+  justify-content:center ;
+  background-color: #848282;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+nav a:hover {
+  color: #fff;
+  background-color: #55a7f7;
 }
 
 header {
-  background-color: #f1f951;
-  padding: 50px;
   text-align: center;
-  color: rgb(8, 8, 8);
+  padding: 8  0px;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: #222; /* Fondo de la barra de navegación */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-nav a {
-  color: rgb(253, 253, 251);
-  text-decoration: none;
-  padding: 15px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin: 0 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 1.2em;
-}
+
 
 h1 {
   font-size: 2.5em;
@@ -78,7 +90,7 @@ margin-left: 10%;
 .Formulario {
   max-width: 600px;
   margin: 20px auto;
-  background-color: #bebe52;
+  background-color: #fdfd8b;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(9, 9, 9, 0.1);
@@ -110,7 +122,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #faf6f6;
+  background-color: #faf8f8;
 }
 
 @keyframes fadeIn {
@@ -123,13 +135,13 @@ input[type="submit"]:hover {
 }
 #parrafovideo{
     color: #0b0b0b; 
-    font-size: 35px; /* Tamaño de la fuente */
-    line-height: 1.5; /* Altura de línea */
-    margin-bottom: 20px; /* Margen inferior */
+    font-size: 25px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
 }
 #Ubicación{
   color: #0b0b0b; 
-  font-size: 25px; /* Tamaño de la fuente */
+  font-size: 20px; /* Tamaño de la fuente */
   line-height: 1.5; /* Altura de línea */
   margin-bottom: 20px; /* Margen inferior */
 }
